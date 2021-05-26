@@ -1,0 +1,123 @@
+:link { color: #8cf8f8; }
+:visited { color: #ffa75f; }
+
+
+
+.flex-container {
+    display: flex;
+    flex-basis: 100%;
+    width: 100%;
+    justify-content: flex-start;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: 'Mukta', sans-serif;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: red;
+    margin: 0px;
+    padding: 10px;
+    font-size: 50px;
+    color: white;
+}
+
+.flex-container div {
+    margin: 10px;
+    padding: 30px;
+}
+
+.search {
+    background-color: red;
+}
+
+/* Need help with stacking and moving these to the right*/
+.right_options {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.paragraph {
+    font-size: 25px;
+    
+}
+
+/*.row {
+    column-count: 2;
+    column-gap: 50px;
+    column-span: none;
+  }
+  */
+
+  @keyframes example {
+    from {background-color: red;}
+    to {background-color: black;}
+  }
+
+  .some-page-wrapper {
+    margin: 15px;
+    font-family: 'Domine', serif;
+    font-family: 'Mukta', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    
+    position: inherit;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+  
+  .blue-column {
+    height: 100px;
+    font-size: 30px;
+  }
+  
+  .green-column {
+    height: 200px;
+    font-size: 30px;
+  }
+
+
+/* can't figure out why the right end of the box goes to the end of the screen */
+.footer {
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 100%;
+    width: 100%;
+    margin: 10px;
+    padding: 30px;
+    font-size: 20px;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    color: white;
+  }
+
+a:hover {
+    background-color: grey;
+  }
